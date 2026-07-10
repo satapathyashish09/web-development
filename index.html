@@ -1,56 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ashish Satapathy - Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ChronoCube - Time Management Cube</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
-<header>
-    <h1>Ashish Satapathy</h1>
-    <p>B.Sc. Computer Science Student</p>
+<!-- Navigation Bar -->
 
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="skill.html">Skills</a> |
-        <a href="project.html">Projects</a> |
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+<nav class="navbar">
 
-<main>
+<div class="logo">
+ChronoCube
+</div>
 
-    <section>
-        <h2>Welcome to My Portfolio</h2>
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#benefits">Benefits</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#pricing">Pricing</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
 
-        <p>
-            Hello! I am Ashish Satapathy from Odisha. I am currently pursuing
-            a B.Sc. in Computer Science at Ravenshaw University, Cuttack.
-        </p>
+<button class="nav-btn">
+Get Started
+</button>
 
-        <p>
-            As an undergraduate student, I am passionate about technology and
-            enjoy learning new concepts in programming and web development.
-            I like working on projects and exploring new ideas to improve my skills.
-        </p>
-    </section>
+</nav>
 
-    <section>
-        <h2>Career Objective</h2>
 
-        <p>
-            To enhance my knowledge and technical skills while gaining practical
-            experience in the field of computer science and contributing to
-            innovative projects.
-        </p>
-    </section>
 
-</main>
 
-<footer>
-    <p>&copy; Learning Today , Leading Tomorrow</p>
+<!-- Hero Section -->
+
+<section id="home" class="hero">
+
+<div class="hero-content">
+
+<h1>
+Manage Time Smarter With ChronoCube
+</h1>
+
+<p>
+ChronoCube is a smart time management cube designed for students and professionals to improve focus, organize tasks, and achieve goals efficiently.
+</p>
+
+<div class="hero-buttons">
+
+<button class="primary-btn">
+Get Started
+</button>
+
+<button class="secondary-btn">
+Learn More
+</button>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<div class="cube">
+⏳
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Features Section -->
+
+<section id="features" class="features">
+
+<h2 class="section-title">
+Key Features
+</h2>
+
+<div class="feature-grid">
+
+<div class="feature-card">
+<h3>⏳ Focus Timer</h3>
+<p>Stay focused with dedicated work sessions.</p>
+</div>
+
+<div class="feature-card">
+<h3>📚 Study Planner</h3>
+<p>Organize study schedules effectively.</p>
+</div>
+
+<div class="feature-card">
+<h3>🎯 Goal Tracker</h3>
+<p>Track daily and weekly goals.</p>
+</div>
+
+<div class="feature-card">
+<h3>📊 Analytics</h3>
+<p>Measure productivity and progress.</p>
+</div>
+
+<div class="feature-card">
+<h3>🔔 Smart Reminders</h3>
+<p>Never miss important tasks.</p>
+</div>
+
+<div class="feature-card">
+<h3>📅 Daily Scheduler</h3>
+<p>Plan your day efficiently.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- Benefits Section -->
+
+<section id="benefits" class="benefits">
+
+<h2 class="section-title">
+Benefits
+</h2>
+
+<div class="benefit-container">
+
+<div class="benefit-card">
+<h3>Better Time Management</h3>
+<p>Plan tasks and manage time effectively.</p>
+</div>
+
+<div class="benefit-card">
+<h3>Higher Productivity</h3>
+<p>Complete more work in less time.</p>
+</div>
+
+<div class="benefit-card">
+<h3>Reduced Procrastination</h3>
+<p>Stay focused and motivated daily.</p>
+</div>
+
+<div class="benefit-card">
+<h3>Goal Achievement</h3>
+<p>Track and accomplish important goals.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- Testimonials Section -->
+
+<section id="reviews" class="reviews">
+
+<h2 class="section-title">
+What Users Say
+</h2>
+
+<div class="review-grid">
+
+<div class="review-card">
+<div class="stars">⭐⭐⭐⭐⭐</div>
+<p>
+ChronoCube helped me manage my study schedule and stay focused.
+</p>
+<h4>- Student User</h4>
+</div>
+
+<div class="review-card">
+<div class="stars">⭐⭐⭐⭐⭐</div>
+<p>
+A simple and effective way to organize my daily tasks.
+</p>
+<h4>- Professional User</h4>
+</div>
+
+<div class="review-card">
+<div class="stars">⭐⭐⭐⭐⭐</div>
+<p>
+The goal tracker keeps me motivated every day.
+</p>
+<h4>- Regular User</h4>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- Pricing Section -->
+
+<section id="pricing" class="pricing">
+
+<h2 class="section-title">
+Pricing Plans
+</h2>
+
+<div class="pricing-grid">
+
+<div class="price-card">
+<h3>Basic</h3>
+<h1>₹99</h1>
+<p>Per Month</p>
+<button class="price-btn">Choose Plan</button>
+</div>
+
+<div class="price-card popular">
+<h3>Pro</h3>
+<h1>₹199</h1>
+<p>Per Month</p>
+<button class="price-btn">Choose Plan</button>
+</div>
+
+<div class="price-card">
+<h3>Premium</h3>
+<h1>₹299</h1>
+<p>Per Month</p>
+<button class="price-btn">Choose Plan</button>
+</div>
+
+</div>
+
+<div class="cta-section">
+
+<h2>
+Start Managing Your Time Better Today
+</h2>
+
+<p>
+Join ChronoCube and improve your productivity.
+</p>
+
+<button class="cta-btn">
+Start Free Trial
+</button>
+
+</div>
+
+</section>
+
+
+
+
+<!-- Footer -->
+
+<footer id="contact" class="footer">
+
+<div class="footer-container">
+
+<div>
+<h2>ChronoCube</h2>
+<p>Smart Time Management Cube</p>
+</div>
+
+<div>
+<h3>Contact</h3>
+<p>Email: chronocube@gmail.com</p>
+<p>Location :Odisha , India</p>
+</div>
+
+<div>
+<h3>Follow Us on</h3>
+<p>Instagram</p>
+<p>Facebook</p>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>
+© 2026 CHRONOCUBE | Developed by ASHISH SATAPATHY
+</p>
+</div>
+
 </footer>
 
 </body>
 </html>
+
